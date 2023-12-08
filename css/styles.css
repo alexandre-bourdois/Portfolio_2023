@@ -20,19 +20,53 @@ header {
     background-color: #34495E ;
 }
 
-.logo {
-    margin-left: 1%;
-    text-decoration: none; 
-    color: #fff; 
-}
 
 .navbar {
     display: flex;
 }
 
+.logo {
+    font-size: 1.5rem;
+    margin-left: 1%;
+    text-decoration: none; 
+    color: #fff;
+    cursor:default
+}
+
 .navbar a {
     margin: 0 10px; 
     text-decoration: none; 
-    color: #fff; 
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #000
 }
 /*Header*/
+
+/*Main/
+
+/*Home*/
+.home h3{
+    color: #fff;
+}
+
+.home h1{
+    color: #34495E;
+}
+
+/*Home*/
+
+
+
+
+/*Footer*/
+footer{
+    background-color: #fff;
+}
+
+
+
+/*Footer*/
