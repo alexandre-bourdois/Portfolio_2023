@@ -55,8 +55,29 @@ header {
 
 .home h1{
     color: #34495E;
+    font-size: 2.4rem;
+
 }
 
+.home {
+    display: flex; /* Utilise flexbox pour aligner les éléments en ligne */
+}
+
+.home_content {
+    flex: 1; /* Permet à cette partie de prendre autant d'espace que possible */
+    padding: 10rem;
+}
+
+.home_photo {
+    padding: 2rem;
+    flex: 1; /* Permet à cette partie de prendre autant d'espace que possible */
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 100%; 
+    height: auto; 
+}
 /*Home*/
 
 
