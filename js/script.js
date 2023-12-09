@@ -1,4 +1,4 @@
-var typed = new Typed(".multiple-text",{
+var typed = new Typed(".home-job",{
     strings: ["Software Engineer.", "Hardware Engineer."],
     typeSpeed: 100,
     backSpeed: 100,
