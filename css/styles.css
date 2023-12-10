@@ -51,6 +51,7 @@ header {
 /*Home*/
 .home h3{
     color: #fff;
+    font-size: 0.8rem;
 }
 
 span{
@@ -59,8 +60,9 @@ span{
 
 .home h1{
     color: #6487aa;
-    font-size: 2.35rem;
-    padding-top: 2rem;
+    font-size: 2.36rem;
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
 
 }
 .home p{
@@ -70,16 +72,22 @@ span{
 
 .home {
     display: flex; /* Utilise flexbox pour aligner les éléments en ligne */
+    justify-content: space-between;
+    padding-bottom: ;
 }
 
 .home_content {
-    flex: 1; /* Permet à cette partie de prendre autant d'espace que possible */
+    flex: 1; 
     padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 .home_photo {
     padding: 2rem;
-    flex: 1; /* Permet à cette partie de prendre autant d'espace que possible */
+    flex: 1;
 }
 
 .rounded-image {
@@ -89,6 +97,28 @@ span{
 }
 /*Home*/
 
+/*About*/
+.about{
+
+    display: flex;
+
+}
+.about p,h2{
+    color:#fff;
+}
+
+.about_photo{
+    padding: 5rem
+}
+.about_content{
+    flex:1;
+    padding: 10 rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*About*/
 
 
 
