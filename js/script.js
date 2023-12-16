@@ -5,3 +5,5 @@ var typed = new Typed(".home-job",{
     backDelay: 1000,
     loop: true
     })
+
+

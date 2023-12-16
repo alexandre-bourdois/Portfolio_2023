@@ -16,7 +16,6 @@ html
 {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	background-color: var(--bg-color);
 }
  
 /*Header*/
@@ -25,8 +24,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #445f7b ;
-
 }
 
 
@@ -108,21 +105,25 @@ span{
 
 /*About*/
 .about{
-
+    margin-bottom: 10rem;
+	background-color: black;
     display: flex;
 
 }
+
+.about h2{
+    margin-top: 5rem;
+}
 .about p,h2{
     color:#fff;
+    padding-top: 2rem ;
     padding-left: 20rem;
     padding-right: 20rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     margin: auto;
+    
 }
 
-.about_photo{
-    padding: 5rem
-}
 .about_content{
     flex:1;
     padding: 10 rem;
