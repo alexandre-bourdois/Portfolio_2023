@@ -21,7 +21,6 @@ VANTA.NET({
 })
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the element containing experiences
   const experienceContainer = document.getElementById("experience-container");
 
   // Load JSON data
@@ -53,7 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
         `;
 
-        // Add experience to the page
         experienceContainer.innerHTML += experienceHTML;
       });
     })
