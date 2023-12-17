@@ -21,28 +21,41 @@ VANTA.NET({
 })
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Get the element containing experiences
-    const experienceContainer = document.getElementById("experience-container");
-  
-    // Load JSON data
-    fetch("../Ressources/json/experiences.json")
-      .then(response => response.json())
-      .then(data => {
-        // Sort experiences by date (most recent first)
-        data.sort((a, b) => new Date(b.date) - new Date(a.date));
-  
-        // Generate HTML for each experience
-        data.forEach(experiencejson => {
-          const experienceHTML = `
-            <div class="experience_content">
+  // Get the element containing experiences
+  const experienceContainer = document.getElementById("experience-container");
+
+  // Load JSON data
+  fetch("../Ressources/json/experiences.json")
+    .then(response => response.json())
+    .then(data => {
+      // Sort experiences by date (most recent first)
+      data.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      // Generate HTML for each experience
+      data.forEach((experiencejson, index) => {
+        const hasImage = experiencejson.image && experiencejson.image !== "none";
+        const hasVideo = experiencejson.video && experiencejson.video !== "none";
+
+        // Determine alignment based on index
+        const alignment = index % 2 === 0 ? "left" : "right";
+
+        const experienceHTML = `
+          <div class="experience_content" style="text-align: ${alignment};">
+            <div class="position-text">
               <h3>${experiencejson.position} - ${experiencejson.company}</h3>
               <p>${experiencejson.date} | ${experiencejson.location}</p>
               <p>${experiencejson.description}</p>
             </div>
-          `;
-          // Add experience to the page
-          experienceContainer.innerHTML += experienceHTML;
-        });
-      })
-      .catch(error => console.error("Error loading data:", error));
-  });
+            <div class="position-image">
+              ${hasImage ? `<img src="${experiencejson.image}" alt="Company Logo" image" width="500px" height="400px">` : ""}
+              ${hasVideo ? `<video src="${experiencejson.video}" controls></video>` : ""}
+            </div>
+          </div>
+        `;
+
+        // Add experience to the page
+        experienceContainer.innerHTML += experienceHTML;
+      });
+    })
+    .catch(error => console.error("Error loading data:", error));
+});

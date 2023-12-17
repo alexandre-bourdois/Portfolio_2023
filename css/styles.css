@@ -4,8 +4,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 :root{
     --sec-bg-color: white;
     --text-color-one: #456a91;
@@ -25,7 +23,6 @@ header {
     align-items: center;
     padding: 20px;
 }
-
 
 .navbar {
     display: flex;
@@ -47,8 +44,9 @@ header {
     margin-left: 2rem;
 }
 .navbar a:hover{
-    color: black
+    color: var(--text-color-one)
 }
+
 /*Header*/
 
 /*Main/
@@ -70,6 +68,7 @@ span{
     padding-bottom: 1.5rem;
 
 }
+
 .home p{
     color: var(--text-color-two);
     padding-top: 2rem;
@@ -88,7 +87,6 @@ span{
     flex-direction: column;
     justify-content: center;
 }
-
 
 .home_photo {
     padding: 2rem;
@@ -111,6 +109,8 @@ span{
 
 .about h2{
     margin-top: 2rem;
+    font-size: 2rem;
+
 }
 .about p,h2{
     color: black;
@@ -152,20 +152,39 @@ span{
 	background-color: black;
     text-align: center;    
 }
+
 .experience-container{
     flex:1;
     display: flex;
     flex-direction: column;
 
 }
+
 .experience h2{
-    color: white
+    color: white;
+    font-size: 2rem;
 }
+
 .experience_content {
-    margin-bottom: 20px;
+    margin-bottom   : 20px;
     padding-bottom: 10px;
     color: white;
-    text-align: center;
+}
+
+.experience_content .position-text{
+    z-index: 10;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-right: -100px;
+}
+
+
+.experience-container img{
+    width: 100%;
+    border-radius: 10%;
   }
 /*Experience*/
 
@@ -173,5 +192,10 @@ span{
 footer{
     text-align: center;
     background-color: var(--sec-bg-color);
+}
+
+.footer-license{
+    text-decoration: none;
+    color: inherit;
 }
 /*Footer*/

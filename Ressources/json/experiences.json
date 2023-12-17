@@ -7,7 +7,7 @@
       "description": "Experience description...",
       "link":"https://www.st.com/content/st_com/en/about/st_company_information/who-we-are.html",
       "video": "none",
-      "image": "none"
+      "image": "../Ressources/images/ST_LOGO.jpg"
     },
     {
       "position": "Hardware Engineer Intern",
@@ -17,7 +17,7 @@
       "description": "Experience description...",
       "link":"https://www.utm.my/",
       "video": "none",
-      "image": "none"
+      "image": "../Ressources/images/UTM_LOGO.jpg"
     },
     {
       "position": "IoT Cybersecurity Consultant",
@@ -27,7 +27,7 @@
       "description": "Experience description...",
       "link":"https://www.lootus.net/",
       "video": "none",
-      "image": "none"
+      "image": "../Ressources/images/LOOTUS_LOGO.jpg"
     }
 
   ]
