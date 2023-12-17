@@ -76,7 +76,7 @@ span{
 }
 
 .home {
-    display: flex; /* Utilise flexbox pour aligner les éléments en ligne */
+    display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
 }
@@ -104,7 +104,7 @@ span{
 
 /*About*/
 .about{
-    padding-bottom: 10rem;
+    padding-bottom: 17rem;
 	background-color: var(--sec-bg-color);
     display: flex; 
 }
@@ -128,6 +128,21 @@ span{
     flex-direction: column;
     justify-content: center;
 }
+.about_end {
+    position: relative;
+    background-color: white;
+
+    }
+.about_end::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7rem; 
+    background: linear-gradient(to bottom left, transparent 50%, black 50%); 
+    z-index: 1;
+}
 
 /*About*/
 
@@ -135,8 +150,7 @@ span{
 .experience{
     padding-bottom: 10rem;
 	background-color: black;
-    display: flex;
-    
+    text-align: center;    
 }
 .experience-container{
     flex:1;
@@ -144,14 +158,14 @@ span{
     flex-direction: column;
 
 }
+.experience h2{
+    color: white
+}
 .experience_content {
     margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     color: white;
-    text-align: center; /* Centrer le texte */
-
-
+    text-align: center;
   }
 /*Experience*/
 
@@ -160,7 +174,4 @@ footer{
     text-align: center;
     background-color: var(--sec-bg-color);
 }
-
-
-
 /*Footer*/
