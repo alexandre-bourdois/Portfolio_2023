@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const experienceContainer = document.getElementById("experience-container");
 
   // Load JSON data
-  fetch("../Ressources/json/experiences.json")
+  fetch("../Ressources/jsons/experiences.json")
     .then(response => response.json())
     .then(data => {
       // Sort experiences by date (most recent first)
