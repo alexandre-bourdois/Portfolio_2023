@@ -7,9 +7,9 @@
 
 
 :root{
-    --bg-color: black;
-    --main-text-color: #445f7b;
-    --secondary-text-color: #a9bbd1;
+    --sec-bg-color: white;
+    --text-color-one: #456a91;
+    --text-color-two: #a9bbd1;
 }
 
 html
@@ -35,20 +35,19 @@ header {
     font-size: 1.5rem;
     margin-left: 1%;
     text-decoration: none; 
-    color: #fff;
+    color: white;
     cursor:default
 }
 
 .navbar a {
     margin: 0 10px; 
     text-decoration: none; 
-    color: #fff;
+    color: white;
     font-size: 1rem;
     margin-left: 2rem;
 }
-.navbar a:hover,
-.navbar a.active{
-    color: #000
+.navbar a:hover{
+    color: black
 }
 /*Header*/
 
@@ -56,23 +55,23 @@ header {
 
 /*Home*/
 .home h3{
-    color: #fff;
+    color: white;
     font-size: 0.8rem;
 }
 
 span{
-    color: var(--secondary-text-color)
+    color: var(--text-color-two)
 }
 
 .home h1{
-    color: var(--main-text-color);
+    color: var(--text-color-one);
     font-size: 2.36rem;
     padding-top: 0rem;
     padding-bottom: 1.5rem;
 
 }
 .home p{
-    color: var(--secondary-text-color);
+    color: var(--text-color-two);
     padding-top: 2rem;
 }
 
@@ -105,17 +104,16 @@ span{
 
 /*About*/
 .about{
-    margin-bottom: 10rem;
-	background-color: var(--bg-color);
-    display: flex;
-
+    padding-bottom: 10rem;
+	background-color: var(--sec-bg-color);
+    display: flex; 
 }
 
 .about h2{
     margin-top: 2rem;
 }
 .about p,h2{
-    color:#fff;
+    color: black;
     padding-top: 2rem ;
     padding-left: 20rem;
     padding-right: 20rem;
@@ -133,12 +131,34 @@ span{
 
 /*About*/
 
+/*Experience*/
+.experience{
+    padding-bottom: 10rem;
+	background-color: black;
+    display: flex;
+    
+}
+.experience-container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
 
+}
+.experience_content {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center; /* Centrer le texte */
+
+
+  }
+/*Experience*/
 
 /*Footer*/
 footer{
     text-align: center;
-    background-color: #fff;
+    background-color: var(--sec-bg-color);
 }
 
 
