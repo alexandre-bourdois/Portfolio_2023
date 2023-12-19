@@ -203,14 +203,3 @@ span{
 }
 /*Projects*/
 
-/*Footer*/
-footer{
-    text-align: center;
-    background-color: var(--sec-bg-color);
-}
-
-.footer-license{
-    text-decoration: none;
-    color: inherit;
-}
-/*Footer*/
