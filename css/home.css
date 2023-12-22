@@ -1,15 +1,15 @@
 /*Home*/
 .home h3{
-    color: white;
+    color: var(--dark-gray);
     font-size: 0.8rem;
 }
 
 span{
-    color: var(--text-color-two)
+    color: var(--light-gray)
 }
 
 .home h1{
-    color: var(--text-color-one);
+    color: var(--gray);
     font-size: 2.36rem;
     padding-top: 0rem;
     padding-bottom: 1.5rem;
@@ -17,7 +17,7 @@ span{
 }
 
 .home p{
-    color: var(--text-color-two);
+    color: var(--dark-gray);
     padding-top: 2rem;
 }
 

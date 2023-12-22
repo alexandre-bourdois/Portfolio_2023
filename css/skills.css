@@ -1,3 +1,11 @@
 /*Skills*/
-
+.skills{
+    padding-bottom: 10rem;
+	background-color: white;
+    text-align: center;    
+}
+.skills h2{
+    color: black;
+    font-size: 2rem;
+}
 /*Skills*/

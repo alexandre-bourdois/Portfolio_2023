@@ -41,8 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const experienceHTML = `
           <div class="experience_content" style="text-align: ${alignment};">
             <div class="position-text">
-              <h3>${experiencejson.position} - ${experiencejson.company}</h3>
-              <p>${experiencejson.date} | ${experiencejson.location}</p>
+              <h3>${experiencejson.position}</h3>
+              <h4>${experiencejson.company} | ${experiencejson.location}</h4>
+              <p>${experiencejson.date} </p>
               <p>${experiencejson.description}</p>
             </div>
             <div class="position-image">

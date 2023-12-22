@@ -8,6 +8,10 @@
     --sec-bg-color: white;
     --text-color-one: #456a91;
     --text-color-two: #a9bbd1;
+    
+    --dark-gray : #fff;
+    --gray : #dad7cd;
+    --light-gray : #a3b18a;
 }
 
 html
