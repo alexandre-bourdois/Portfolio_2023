@@ -1,0 +1,32 @@
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-left: 1%;
+    text-decoration: none; 
+    color: white;
+    cursor:default
+}
+
+.navbar a {
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: white;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+.navbar a:hover{
+    color: var(--text-color-one)
+}
+
+/*Header*/

@@ -1,0 +1,50 @@
+/*Experience*/
+.experience{
+    padding-bottom: 10rem;
+	background-color: black;
+    text-align: center;    
+}
+
+.experience-container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.experience_content {
+    margin-bottom   : 20px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experience_content .position-text{
+    z-index: 10;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-right: -100px;
+    color: white;
+    background-color: var(--text-color-one);
+    padding: 1.5rem;
+    border-radius: 5%;
+
+
+}
+
+
+.experience-container img{
+    width: 100%;
+    border-radius: 10%;
+  }
+/*Experience*/
