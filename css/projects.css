@@ -2,7 +2,7 @@
 .projects{
     padding-top: 2rem;
     padding-bottom: 10rem;
-	background-color: black;
+	background-color: var(--dark-background);
     text-align: center;    
 }
 .projects h2{
@@ -11,7 +11,7 @@
 }
 
 .projects_end::before {
-    background: white;
+    background: var(--light-background);
 	transform: rotate(-4deg) scale(1.2, 1);
 }
 /*Projects*/

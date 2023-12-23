@@ -1,7 +1,7 @@
 .contact{
     padding-top: 3rem;
     padding-bottom: 10rem;
-	background-color: white;
+	background-color: var(--light-background);
     text-align: center;    
 }
 .contact h2{

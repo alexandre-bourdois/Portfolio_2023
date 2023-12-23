@@ -1,11 +1,11 @@
 /*Home*/
 .home h3{
-    color: var(--dark-gray);
+    color: var(--light-gray);
     font-size: 0.8rem;
 }
 
 span{
-    color: var(--light-gray)
+    color: var(--dark-gray)
 }
 
 .home h1{
@@ -17,7 +17,7 @@ span{
 }
 
 .home p{
-    color: var(--dark-gray);
+    color: var(--light-gray);
     padding-top: 2rem;
 }
 

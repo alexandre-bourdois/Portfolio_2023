@@ -1,7 +1,7 @@
 /*About*/
 .about{
     padding-bottom: 12.5rem;
-	background-color: var(--sec-bg-color);
+	background-color: var(--light-background);
     display: flex; 
 }
 
@@ -28,7 +28,7 @@
 }
 
 .about_end::before {
-    background: black;
+    background: var(--dark-background);
 	transform: rotate(4deg) scale(1.2, 1);
 }
 /*About*/
