@@ -1,5 +1,6 @@
 /*Projects*/
 .projects{
+    padding-top: 2rem;
     padding-bottom: 10rem;
 	background-color: black;
     text-align: center;    
@@ -7,5 +8,10 @@
 .projects h2{
     color: white;
     font-size: 2rem;
+}
+
+.projects_end::before {
+    background: white;
+	transform: rotate(-4deg) scale(1.2, 1);
 }
 /*Projects*/

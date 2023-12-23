@@ -1,5 +1,5 @@
 /*Experience*/
-.experience{
+.experiences{
     padding-top: 2rem;
     padding-bottom: 10rem;
 	background-color: black;
@@ -12,12 +12,12 @@
     flex-direction: column;
 }
 
-.experience h2{
+.experiences h2{
     color: white;
     font-size: 2rem;
 }
 
-.experience_content {
+.experiences_content {
     margin-bottom   : 20px;
     padding-bottom: 10px;
     color: white;
@@ -27,7 +27,7 @@
     align-items: center;
 }
 
-.experience_content .position-text{
+.experiences_content .position-text{
     z-index: 10;
 	position: relative;
 	display: flex;
@@ -41,8 +41,13 @@
     border-radius: 5%;
 }
 
-.experience-container img{
+.experiences-container img{
     width: 100%;
     border-radius: 10%;
   }
+
+.experiences_end::before {
+    background: white;
+	transform: rotate(-4deg) scale(1.2, 1);
+}
 /*Experience*/

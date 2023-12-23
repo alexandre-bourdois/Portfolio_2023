@@ -21,7 +21,7 @@ VANTA.NET({
 })
 
 document.addEventListener("DOMContentLoaded", function () {
-  const experienceContainer = document.getElementById("experience-container");
+  const experienceContainer = document.getElementById("experiences-container");
 
   // Load JSON data
   fetch("../Ressources/jsons/experiences.json")
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const alignment = index % 2 === 0 ? "left" : "right";
 
         const experienceHTML = `
-          <div class="experience_content" style="text-align: ${alignment};">
+          <div class="experiences_content" style="text-align: ${alignment};">
             <div class="position-text">
               <h3>${experiencejson.position}</h3>
               <h4>${experiencejson.company} | ${experiencejson.location}</h4>

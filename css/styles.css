@@ -19,3 +19,12 @@ html
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 }
+
+.section_end::before{
+    content: '';
+    position: absolute;
+	height: 10vw;
+    width: 100%;
+    height: 7rem; 
+    margin: -3.5vw 0px 0vw 0px;
+}

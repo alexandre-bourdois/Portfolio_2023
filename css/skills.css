@@ -1,5 +1,6 @@
 /*Skills*/
 .skills{
+    padding-top: 2rem;
     padding-bottom: 10rem;
 	background-color: white;
     text-align: center;    
@@ -7,5 +8,10 @@
 .skills h2{
     color: black;
     font-size: 2rem;
+}
+
+.skills_end::before {
+    background: black;
+	transform: rotate(4deg) scale(1.2, 1);
 }
 /*Skills*/
