@@ -15,6 +15,7 @@
 .experiences h2{
     color: white;
     font-size: 2rem;
+    padding-bottom: 8rem;
 }
 
 .experiences_content {
@@ -25,25 +26,29 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    gap: 70px;
 }
 
-.experiences_content .position-text{
+.experiences_content .box-text{
     z-index: 10;
 	position: relative;
 	display: flex;
-	justify-content: center;
 	align-items: flex-start;
 	flex-direction: column;
 	margin-right: -100px;
-    color: white;
-    background-color: var(--text-color-one);
+    color: var(--light-background);
+    background-color: var(--gray);
     padding: 1.5rem;
     border-radius: 5%;
 }
+.position-text h3{
+    font-size: 1.5rem;
 
+}
 .experiences-container img{
     width: 100%;
     border-radius: 10%;
+    margin-bottom: 5rem;
   }
 
 .experiences_end::before {
