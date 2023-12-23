@@ -1,11 +1,11 @@
 /*Footer*/
 footer{
     text-align: center;
-    background-color: var(--sec-bg-color);
+    background-color: rgb(34, 34, 95);
 }
 
 .footer-license{
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 /*Footer*/
