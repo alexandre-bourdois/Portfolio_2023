@@ -9,3 +9,17 @@
     font-size: 2rem;
 }
 
+.contact_social{
+    display: flex;
+	flex-direction: row;
+    justify-content: center;
+    gap:50px;
+}
+
+.contact_social a{
+    text-decoration: none;
+}
+
+.contact_social a:hover{
+    opacity: 50%;
+}
