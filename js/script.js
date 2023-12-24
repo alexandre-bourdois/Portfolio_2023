@@ -37,13 +37,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Determine alignment based on index
         const alignment = index % 2 === 0 ? "left" : "right";
-
+        const marginRightValue = alignment === "left" ? "-100px" : "0";
+        const marginLeftValue = alignment === "right" ? "-100px" : "0";
         const positionTextHTML = `
         <div class="position-text">
           <h3>${experiencejson.position}</h3>
           <h4>${experiencejson.company} | ${experiencejson.location}</h4>
           <p>${experiencejson.date} </p>
-          <div class="box-text">
+          <div class="box-text" style="margin-right: ${marginRightValue}; margin-left: ${marginLeftValue};">
             <p>${experiencejson.description}</p>
           </div>
         </div>
@@ -53,7 +54,8 @@ document.addEventListener("DOMContentLoaded", function () {
           ${hasImage ? `<img src="${experiencejson.image}" alt="Company Logo" image" width="500px" height="400px">` : ""}
           ${hasVideo ? `<video src="${experiencejson.video}" controls></video>` : ""}
         </div>
-      `;      
+      `;
+      
         const experienceHTML = `
         <div class="experiences_content" style="text-align: ${alignment};">
           ${alignment === "left" ? positionTextHTML + positionImageHTML : positionImageHTML + positionTextHTML}

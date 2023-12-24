@@ -19,7 +19,6 @@
     flex-direction: row;
     align-items: center;
     margin-bottom:10rem ;
-
 }
 
 .experiences_content .box-text{
@@ -27,7 +26,6 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	margin-right: -100px;
     color: var(--light-background);
     background-color: var(--gray);
     padding: 1.5rem;

@@ -24,7 +24,7 @@
       "company": "LOOTUS SECURITY",
       "location": "Saint grégoire, France",
       "date": "September 2021 - November 2023",
-      "description": "Experience description...",
+      "description": "Development of a bootloader on STM32 for an IoT security ecosystem. Reverse engineering of optical systems.",
       "link":"https://www.lootus.net/",
       "video": "none",
       "image": "../Ressources/images/LOOTUS_LOGO.jpg"
