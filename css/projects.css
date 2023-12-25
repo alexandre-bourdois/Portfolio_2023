@@ -9,7 +9,18 @@
     color: white;
     font-size: 2rem;
 }
+.project-text{
+    color:white;
+}
 
+.projects_content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:10rem ;
+}
 .projects_end::before {
     background: var(--light-background);
 	transform: rotate(-4deg) scale(1.2, 1);
