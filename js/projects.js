@@ -16,9 +16,8 @@ document.addEventListener("DOMContentLoaded", function loadProject() {
           const marginLeftValue = alignment === "right" ? "-100px" : "0";
           const projectTextHTML = `
             <div class="project-text">
-              <h3>${project.project}</h3>
-              <p>${project.date}</p>
-              <p>${project.description}</p>
+              <h3>${project.project} (${project.date})</h3>
+              <p class="box-project-text">${project.description}</p>
               <a href="${project.link}" target="_blank">View on GitHub</a>
             </div>
           `;
