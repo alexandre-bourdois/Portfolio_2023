@@ -11,16 +11,26 @@ function loadCategories() {
         .then(response => response.json())
         .then(data => {
 
-            // Display categories in a table
             const table = document.createElement('table');
             table.className = 'categories-table';
 
-            // Data rows
             data.forEach(category => {
                 const categoryRow = document.createElement('tr');
                 const categoryCell = document.createElement('td');
                 categoryCell.textContent = category['skill-category'];
                 categoryRow.appendChild(categoryCell);
+                table.appendChild(categoryRow);
+
+                const subcategoryCell = document.createElement('td');
+                const subcategoriesList = document.createElement('ul');
+                category.skills.forEach(subcategory => {
+                    const subcategoryItem = document.createElement('li');
+                    subcategoryItem.textContent = subcategory.name;
+                    subcategoriesList.appendChild(subcategoryItem);
+                });
+                subcategoryCell.appendChild(subcategoriesList);
+                categoryRow.appendChild(subcategoryCell);
+
                 table.appendChild(categoryRow);
             });
 
