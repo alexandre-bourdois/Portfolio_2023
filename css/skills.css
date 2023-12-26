@@ -9,6 +9,11 @@
     color: black;
     font-size: 2rem;
 }
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 
 .skills_end::before {
     background: var(--dark-background);

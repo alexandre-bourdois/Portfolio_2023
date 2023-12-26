@@ -1,38 +1,30 @@
-// skills.js
+// projects.js (ou le nom de votre fichier JavaScript)
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Initial display: Hardware Development
-    showSkills('Hardware');
+    // Initial display
+    loadCategories();
 });
 
-function showSkills(category) {
-    const skillsContainer = document.getElementById('skills-container');
-    fetch('../Ressources/jsons/projects.json')
+function loadCategories() {
+    const skillsContainer = document.getElementById("skills-container");
+    fetch("../Ressources/jsons/skills.json")
         .then(response => response.json())
         .then(data => {
-            // Display section title
-            const skillsTitle = document.createElement('h2');
-            skillsTitle.className = 'skills-title';
-            skillsTitle.textContent = 'Skills - ' + category;
-            skillsContainer.appendChild(skillsTitle);
 
-            // Display skills for the selected category
-            const skillsData = getDataForCategory(category, data);
-            skillsData.forEach(skill => {
-                const skillSetDiv = document.createElement('div');
-                skillSetDiv.className = 'skill-set';
+            // Display categories in a table
+            const table = document.createElement('table');
+            table.className = 'categories-table';
 
-                const skillSetTitle = document.createElement('h3');
-                skillSetTitle.textContent = skill.name;
-
-                skillSetDiv.appendChild(skillSetTitle);
-                skillsContainer.appendChild(skillSetDiv);
+            // Data rows
+            data.forEach(category => {
+                const categoryRow = document.createElement('tr');
+                const categoryCell = document.createElement('td');
+                categoryCell.textContent = category['skill-category'];
+                categoryRow.appendChild(categoryCell);
+                table.appendChild(categoryRow);
             });
-        })
-        .catch(error => console.error('Error loading skills:', error));
-}
 
-function getDataForCategory(category, allCategories) {
-    const selectedCategory = allCategories.find(cat => cat.name === category);
-    return selectedCategory ? selectedCategory.skills : [];
+            skillsContainer.appendChild(table);
+        })
+        .catch(error => console.error('Error loading categories:', error));
 }

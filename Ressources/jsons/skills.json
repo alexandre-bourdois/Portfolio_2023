@@ -1,6 +1,6 @@
 [
     {
-        "name": "Hardware Development",
+        "skill-category": "Hardware Development",
         "skills": [
             {
                 "name": "EDA",
@@ -40,9 +40,8 @@
         ]
     },
     {
-        "name" : "Software Development",
-        "skills" :
-        [
+        "skill-category": "Software Development",
+        "skills": [
             {
                 "name": "C",
                 "logo": "resources/svgs/skills/C.svg",
@@ -67,13 +66,12 @@
                 "name": "Git",
                 "logo": "resources/svgs/skills/Git.svg",
                 "link": "https://git-scm.com/"
-            },
+            }
         ]
     },
     {
-        "name" : "Back-end Web",
-        "skills" :
-        [
+        "skill-category": "Back-end Web",
+        "skills": [
             {
                 "name": "Python",
                 "logo": "resources/svgs/skills/Python.svg",
@@ -84,7 +82,6 @@
                 "logo": "resources/svgs/skills/JavaScript.svg",
                 "link": "https://en.wikipedia.org/wiki/JavaScript"
             },
-
             {
                 "name": "SQL",
                 "logo": "resources/svgs/skills/Sql.svg",
@@ -98,9 +95,8 @@
         ]
     },
     {
-        "name" : "Front-end Web",
-        "skills" :
-        [
+        "skill-category": "Front-end Web",
+        "skills": [
             {
                 "name": "HTML",
                 "logo": "resources/svgs/skills/Html.svg",
