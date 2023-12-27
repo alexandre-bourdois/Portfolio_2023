@@ -9,11 +9,35 @@
     color: black;
     font-size: 2rem;
 }
+
+.category_title{
+    font-size: 1.5rem;
+    background-color: var(--dark-background);
+    padding: 2rem;
+    color: var(--light-background);
+    border-radius: 20%;
+}
+
 .skills-container{
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap:100px;
+}
+.category_content .skill{
+    width: 95px;
+	height: 95px;
+}
+
+.category_skills{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 100px);
+	justify-content: space-between;
+	flex-wrap: wrap;
+	grid-gap: 50px;
+	transform: translateY(25px);
+
 }
 
 .skills_end::before {

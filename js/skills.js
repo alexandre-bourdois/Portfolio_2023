@@ -6,14 +6,18 @@ function loadSkills() {
     const skillsContainer = document.getElementById("skills-container");
     load_json("../Ressources/jsons/skills.json")
         .then(data => {
+            data.forEach(category => {
+                const skillTitle = `<div class="category_title">${category['skill-category']}</div>`;
+                let skillContent = '';
 
-            data.forEach(category=>{
-                const skillTitle =`<div class="category_title">${category['skill-category']}</div>`;
-                const skillNames = category.skills.map(skill => `<li>${skill.name}</li>`).join('');
+                category.skills.forEach(skill => {
+                    skillContent += `<a class="skill" href="${skill.link}" target="blank">
+                        <img src="${skill.logo}" alt="${skill.name}" width="190px" height="190px"/>
+                        <p>${skill.name}</p>`;
+                }); 
 
-                skillsContainer.innerHTML+= `<div class="category_content">${skillTitle}<ul class="category_skills">${skillNames}</ul></div>`;
+                skillsContainer.innerHTML += `<div class="category_content">${skillTitle}<div class="category_skills">${skillContent}</div></div>`;
             })
-
         })
         .catch(error => console.error('Error loading categories:', error));
 }
