@@ -3,38 +3,28 @@
         "skill-category": "Hardware Development",
         "skills": [
             {
-                "name": "EDA",
-                "logo": "resources/svgs/skills/EDA.svg",
+                "name": "ECAD",
+                "logo": "../Ressources/images/skills/Eda.svg",
                 "link": "https://en.wikipedia.org/wiki/Electronic_design_automation"
             },
             {
-                "name": "Analog Design",
-                "logo": "resources/svgs/skills/Analog.svg",
-                "link": "https://en.wikipedia.org/wiki/Analog_circuit_design"
-            },
-            {
-                "name": "Digital Design",
-                "logo": "resources/svgs/skills/Digital.svg",
-                "link": "https://en.wikipedia.org/wiki/Digital_circuit_design"
-            },
-            {
                 "name": "VHDL",
-                "logo": "resources/svgs/skills/VHDL.svg",
+                "logo": "../Ressources/images/skills/VHDL.svg",
                 "link": "https://en.wikipedia.org/wiki/VHDL"
             },
             {
-                "name": "Logic Analyzer",
-                "logo": "resources/svgs/skills/LogicAnalyzer.svg",
-                "link": "https://en.wikipedia.org/wiki/Logic_analyzer"
-            },
-            {
                 "name": "Memory Management",
-                "logo": "resources/svgs/skills/MemoryManagement.svg",
+                "logo": "../Ressources/images/skills/MemoryManagement.svg",
                 "link": "https://en.wikipedia.org/wiki/Memory_management"
             },
             {
                 "name": "Communication Protocols",
-                "logo": "resources/svgs/skills/CommunicationProtocols.svg",
+                "logo": "../Ressources/images/skills/CommunicationProtocols.svg",
+                "link": "https://en.wikipedia.org/wiki/Communication_protocol"
+            },
+            {
+                "name": "Radio Frequency",
+                "logo": "../Ressources/images/skills/RadioFrequency.svg",
                 "link": "https://en.wikipedia.org/wiki/Communication_protocol"
             }
         ]
@@ -44,27 +34,27 @@
         "skills": [
             {
                 "name": "C",
-                "logo": "Resources/images/skills/C.svg",
+                "logo": "../Ressources/images/skills/C.svg",
                 "link": "https://en.wikipedia.org/wiki/C_(programming_language)"
             },
             {
                 "name": "C++",
-                "logo": "resources/images/skills/Cpp.svg",
+                "logo": "../Ressources/images/skills/Cpp.svg",
                 "link": "https://en.wikipedia.org/wiki/C%2B%2B"
             },
             {
                 "name": "Python",
-                "logo": "resources/images/skills/Python.svg",
+                "logo": "../Ressources/images/skills/Python.svg",
                 "link": "https://www.python.org/"
             },
             {
                 "name": "CMake",
-                "logo": "resources/images/skills/CMake.svg",
+                "logo": "../Ressources/images/skills/CMake.svg",
                 "link": "https://cmake.org/"
             },
             {
                 "name": "Git",
-                "logo": "resources/images/skills/Git.svg",
+                "logo": "../Ressources/images/skills/Git.svg",
                 "link": "https://git-scm.com/"
             }
         ]
@@ -74,27 +64,27 @@
         "skills": [
             {
                 "name": "HTML",
-                "logo": "resources/images/skills/Html.svg",
+                "logo": "../Ressources/images/skills/Html.svg",
                 "link": "https://en.wikipedia.org/wiki/HTML"
             },
             {
                 "name": "CSS",
-                "logo": "resources/images/skills/Css.svg",
+                "logo": "../Ressources/images/skills/Css.svg",
                 "link": "https://en.wikipedia.org/wiki/CSS"
             },
             {
                 "name": "JavaScript",
-                "logo": "resources/images/skills/JavaScript.svg",
+                "logo": "../Ressources/images/skills/JavaScript.svg",
                 "link": "https://en.wikipedia.org/wiki/JavaScript"
             },
             {
                 "name": "SQL",
-                "logo": "resources/images/skills/Sql.svg",
+                "logo": "../Ressources/images/skills/Sql.svg",
                 "link": "https://sql.sh"
             },
             {
                 "name": "Git",
-                "logo": "resources/images/skills/Git.svg",
+                "logo": "../Ressources/images/skills/Git.svg",
                 "link": "https://git-scm.com/"
             }
         ]

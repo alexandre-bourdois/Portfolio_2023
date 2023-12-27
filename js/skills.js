@@ -12,8 +12,8 @@ function loadSkills() {
 
                 category.skills.forEach(skill => {
                     skillContent += `<a class="skill" href="${skill.link}" target="blank">
-                        <img src="${skill.logo}" alt="${skill.name}" width="190px" height="190px"/>
-                        <p>${skill.name}</p>`;
+                        <img src="${skill.logo}" alt="${skill.name}" width="140px" height="130px"/>
+                        <p>${skill.name}</p></a>`;
                 }); 
 
                 skillsContainer.innerHTML += `<div class="category_content">${skillTitle}<div class="category_skills">${skillContent}</div></div>`;
