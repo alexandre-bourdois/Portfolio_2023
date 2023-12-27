@@ -1,17 +1,19 @@
 /*Skills*/
 .skills{
     padding-top: 4rem;
-    padding-bottom: 20rem;
+    padding-bottom: 15rem;
 	background-color: var(--light-background);
-    text-align: center;    
+    width: 100%;
+    margin: auto;
 }
 .skills h2{
     color: black;
     font-size: 2rem;
+    text-align: center;    
 }
 
 .category_title{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background-color: var(--dark-background);
     padding: 2rem;
     color: var(--light-background);
@@ -26,17 +28,25 @@
     gap:100px;
 }
 .category_content .skill{
-    width: 90px;
-	height: 90px;
+    width: 100px;
+	height: 100px;
     text-decoration: none;
-    padding: 0.5rem;
-}
+    padding: 0.3rem;
+    text-align: center;
+    color: black;
 
+}
+.category_content{
+    background-color: rgb(230, 227, 237);
+    border-radius: 17%;
+    padding-bottom: 5rem;
+
+}
 .category_skills{
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 100px);
-	justify-content: space-between;
+	grid-template-columns: repeat(auto-fill, 110px);
+	justify-content: center;
 	flex-wrap: wrap;
 	grid-gap: 50px;
 
@@ -45,6 +55,7 @@
 .skill img{
     width: 100%;
   }
+  
 
 .skills_end::before {
     background: var(--dark-background);

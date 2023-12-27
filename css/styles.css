@@ -12,7 +12,7 @@
     --light-gray : #e2e6dd;
 }
 
-html
+html,body 
 {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
