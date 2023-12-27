@@ -1,23 +1,19 @@
-// projects.js (ou le nom de votre fichier JavaScript)
-
 document.addEventListener('DOMContentLoaded', function () {
-    // Initial display
-    loadCategories();
+    loadSkills();
 });
 
-function loadCategories() {
+function loadSkills() {
     const skillsContainer = document.getElementById("skills-container");
-    fetch("../Ressources/jsons/skills.json")
-        .then(response => response.json())
+    load_json("../Ressources/jsons/skills.json")
         .then(data => {
 
             const table = document.createElement('table');
             table.className = 'categories-table';
 
             data.forEach(category => {
-                const categoryRow = document.createElement('tr');
-                const categoryCell = document.createElement('td');
-                categoryCell.textContent = category['skill-category'];
+                const categoryRow = document.createElement('th');
+                const categoryCell = document.createElement('tr');
+                categoryRow.textContent = category['skill-category'];
                 categoryRow.appendChild(categoryCell);
                 table.appendChild(categoryRow);
 

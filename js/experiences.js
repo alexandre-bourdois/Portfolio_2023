@@ -1,9 +1,12 @@
-document.addEventListener("DOMContentLoaded", function loadExperiences() {
+document.addEventListener('DOMContentLoaded', function () {
+  loadExperiences();
+});
+
+function loadExperiences() {
     const experienceContainer = document.getElementById("experiences-container");
   
     // Load JSON data
-    fetch("../Ressources/jsons/experiences.json")
-      .then(response => response.json())
+    load_json("../Ressources/jsons/experiences.json")
       .then(data => {
         // Sort experiences by date (most recent first)
         data.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -44,4 +47,4 @@ document.addEventListener("DOMContentLoaded", function loadExperiences() {
         });
       })
       .catch(error => console.error("Error loading data:", error));
-  });
+  };

@@ -1,9 +1,12 @@
-document.addEventListener("DOMContentLoaded", function loadProject() {
+document.addEventListener('DOMContentLoaded', function () {
+  loadProject();
+});
+
+function loadProject() {
     const projectContainer = document.getElementById("projects-container");
 
     // Load JSON data
-    fetch("../Ressources/jsons/projects.json")
-      .then(response => response.json())
+    load_json("../Ressources/jsons/projects.json")
       .then(data => {
         // Generate HTML for each project
         data.forEach((project, index) => {
@@ -38,4 +41,4 @@ document.addEventListener("DOMContentLoaded", function loadProject() {
         });
       })
       .catch(error => console.error("Error loading data:", error));
-  });
+  };
