@@ -44,27 +44,27 @@
         "skills": [
             {
                 "name": "C",
-                "logo": "resources/svgs/skills/C.svg",
+                "logo": "resources/images/skills/C.svg",
                 "link": "https://en.wikipedia.org/wiki/C_(programming_language)"
             },
             {
                 "name": "C++",
-                "logo": "resources/svgs/skills/Cpp.svg",
+                "logo": "resources/images/skills/Cpp.svg",
                 "link": "https://en.wikipedia.org/wiki/C%2B%2B"
             },
             {
                 "name": "Python",
-                "logo": "resources/svgs/skills/Python.svg",
+                "logo": "resources/images/skills/Python.svg",
                 "link": "https://www.python.org/"
             },
             {
                 "name": "CMake",
-                "logo": "resources/svgs/skills/CMake.svg",
+                "logo": "resources/images/skills/CMake.svg",
                 "link": "https://cmake.org/"
             },
             {
                 "name": "Git",
-                "logo": "resources/svgs/skills/Git.svg",
+                "logo": "resources/images/skills/Git.svg",
                 "link": "https://git-scm.com/"
             }
         ]
@@ -74,27 +74,27 @@
         "skills": [
             {
                 "name": "HTML",
-                "logo": "resources/svgs/skills/Html.svg",
+                "logo": "resources/images/skills/Html.svg",
                 "link": "https://en.wikipedia.org/wiki/HTML"
             },
             {
                 "name": "CSS",
-                "logo": "resources/svgs/skills/Css.svg",
+                "logo": "resources/images/skills/Css.svg",
                 "link": "https://en.wikipedia.org/wiki/CSS"
             },
             {
                 "name": "JavaScript",
-                "logo": "resources/svgs/skills/JavaScript.svg",
+                "logo": "resources/images/skills/JavaScript.svg",
                 "link": "https://en.wikipedia.org/wiki/JavaScript"
             },
             {
                 "name": "SQL",
-                "logo": "resources/svgs/skills/Sql.svg",
+                "logo": "resources/images/skills/Sql.svg",
                 "link": "https://sql.sh"
             },
             {
                 "name": "Git",
-                "logo": "resources/svgs/skills/Git.svg",
+                "logo": "resources/images/skills/Git.svg",
                 "link": "https://git-scm.com/"
             }
         ]

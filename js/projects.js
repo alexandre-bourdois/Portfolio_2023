@@ -20,7 +20,9 @@ function loadProject() {
           const projectTextHTML = `
             <div class="project-text">
               <h3>${project.project} (${project.date})</h3>
-              <p class="box-project-text">${project.description}</p>
+              <div class="box-project-text style="margin-right: ${marginRightValue}; margin-left: ${marginLeftValue};">
+                <p>${project.description}</p>
+              </div>
               <a href="${project.link}" target="_blank">View on GitHub</a>
             </div>
           `;
