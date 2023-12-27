@@ -1,6 +1,5 @@
 /*About*/
 .about{
-    padding-bottom: 12.5rem;
 	background-color: var(--light-background);
 }
 
@@ -17,7 +16,7 @@
     margin: auto;
     padding-bottom: 3rem;
     width: clamp(20px, 50vw, 1000px);
-
+    z-index: 2;
 }
 
 .about_content{
@@ -27,7 +26,7 @@
 }
 
 .about_end::before {
-    background: var(--dark-background);
+    background: var(--light-background);
 	transform: rotate(4deg) scale(1.2, 1);
 }
 /*About*/

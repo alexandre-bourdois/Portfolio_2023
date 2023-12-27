@@ -1,7 +1,8 @@
 /*Skills*/
 .skills{
-    padding-top: 4rem;
-    padding-bottom: 15rem;
+    padding-top: max(10rem, calc(5px + 5vw));
+    transition: padding-top 0.3s ease; 
+    padding-bottom: 3rem;
 	background-color: var(--light-background);
     width: 100%;
     margin: auto;
@@ -16,8 +17,10 @@
     font-size: 1.7rem;
     background-color: var(--dark-background);
     padding: 2rem;
+    width: 350px;
     color: var(--light-background);
     border-radius: 20%;
+    text-align: center;
 }
 
 .skills-container{
@@ -26,6 +29,8 @@
     justify-content: center;
     flex-direction: row;
     gap:100px;
+    z-index: 2;
+	position: relative;
 }
 .category_content .skill{
     width: 100px;
@@ -58,7 +63,7 @@
   
 
 .skills_end::before {
-    background: var(--dark-background);
+    background: var(--light-background);
 	transform: rotate(4deg) scale(1.2, 1);
 }
 /*Skills*/

@@ -1,12 +1,13 @@
 /*Experience*/
 .experiences{
-    padding-top: 4rem;
-    padding-bottom: 10rem;
+    padding-top: max(10rem, calc(5px + 5vw));
+    transition: padding-top 0.3s ease; 
 	background-color: var(--dark-background);
-    text-align: center;    
+    text-align: center;   
 }
 
 .experiences h2{
+    position: relative;
     color: white;
     font-size: 2rem;
     padding-bottom: 8rem;
@@ -18,7 +19,9 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    margin-bottom:10rem ;
+    padding-bottom:10rem ;
+    z-index: 2;
+	position: relative;
 }
 
 .experiences_content .box-text{
@@ -37,10 +40,12 @@
 .experiences-container img{
     width: 100%;
     border-radius: 10%;
+
   }
 
 .experiences_end::before {
-    background: var(--light-background);
+    background: var(--dark-background);
 	transform: rotate(-4deg) scale(1.2, 1);
+
 }
 /*Experience*/

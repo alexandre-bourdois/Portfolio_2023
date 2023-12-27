@@ -1,7 +1,7 @@
 /*Projects*/
 .projects{
-    padding-top: 4rem;
-    padding-bottom: 10rem;
+    padding-top: max(10rem, calc(5px + 5vw));
+    transition: padding-top 0.2s ease; 
 	background-color: var(--dark-background);
     text-align: center;    
 }
@@ -19,7 +19,9 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    margin-bottom:10rem ;
+    padding-bottom:10rem ;
+    position: relative;
+    z-index: 2;
 }
 
 .projects_content .box-project-text{
@@ -45,7 +47,7 @@
   }
 
 .projects_end::before {
-    background: var(--light-background);
+    background: var(--dark-background);
 	transform: rotate(-4deg) scale(1.2, 1);
 }
 /*Projects*/
