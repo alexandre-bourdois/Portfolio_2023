@@ -8,12 +8,10 @@ function loadProject() {
     // Load JSON data
     load_json("../Ressources/jsons/projects.json")
       .then(data => {
-        // Generate HTML for each project
         data.forEach((project, index) => {
           const hasImage = project.image && project.image !== "none";
           const hasVideo = project.video && project.video !== "none";
   
-          // Determine alignment based on index
           const alignment = index % 2 === 0 ? "left" : "right";
           const marginRightValue = alignment === "left" ? "-100px" : "0";
           const marginLeftValue = alignment === "right" ? "-100px" : "0";
