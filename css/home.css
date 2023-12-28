@@ -2,28 +2,25 @@
 .home {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-
     padding-bottom: 1rem;
     align-items: center;
     margin: auto;
-	width: 1300px;
-    gap:20px;
-    padding-bottom: 10rem;
+    max-width: 1300px;
+    padding-bottom:10rem ;
 }
 
 .home h3{
     color: var(--light-gray);
-    font-size:  clamp(10px, 1vw, 20px);;
+    font-size:  clamp(15px, 1vw, 20px);;
 }
 
 span{
-    color: var(--dark-gray)
+    color: var(--dark-blue)
 }
 
 .home h1{
-    color: var(--gray);
-    font-size:  clamp(20px, 3vw, 31px);;
+    color: var(--greenish-gray);
+    font-size:  clamp(27px, 3vw, 31px);;
     padding-bottom: 1.5rem;
 }
 
@@ -35,9 +32,14 @@ span{
 
 .home_content {
     flex: 1; 
-    display: flex;
     flex-direction: column;
     text-align: left;
+    min-width: 400px;
+    max-width: 700px;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
 }
 
 .home_photo {

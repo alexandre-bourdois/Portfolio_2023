@@ -30,7 +30,7 @@
 	display: flex;
 	flex-direction: column;
     color: var(--light-background);
-    background-color: var(--gray);
+    background-color: var(--greenish-gray);
     padding: 1.5rem;
     border-radius: 5%;
     width: calc(clamp(400px, 30vw, 600px) * 1.05);

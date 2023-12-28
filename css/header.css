@@ -26,7 +26,7 @@ header {
     margin-left: 2rem;
 }
 .navbar a:hover{
-    color: var(--dark-gray)
+    color: var(--dark-blue)
 }
 
 /*Header*/

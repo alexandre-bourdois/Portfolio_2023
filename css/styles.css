@@ -7,9 +7,9 @@
 :root{
     --dark-background: #04041c ;
     --light-background :rgb(252, 252, 245);   
-    --dark-gray : #333e7f;
-    --gray : #837e6a;
+    --dark-blue : #4a5178;
     --light-gray : #e2e6dd;
+    --greenish-gray: #787466;
 }
 
 html 
@@ -25,5 +25,4 @@ html
     width: 100%;
     margin: -3.5vw 0px 0vw 0px;
     z-index: 1;
-
 }
