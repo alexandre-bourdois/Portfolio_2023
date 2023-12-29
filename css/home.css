@@ -6,7 +6,8 @@
     align-items: center;
     margin: auto;
     max-width: 1300px;
-    padding-bottom:10rem ;
+    padding-bottom:10rem;
+    justify-content: center;
 }
 
 .home h3{
@@ -27,6 +28,8 @@ span{
 .home p{
     color: var(--light-gray);
     padding-top: 2rem;
+    padding-right: 5%;
+
 }
 
 
