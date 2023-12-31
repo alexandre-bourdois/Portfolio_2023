@@ -37,16 +37,7 @@
     text-align: justify;
 }
 
-.position_background{
-    width: 27rem;
-    height: 30rem;
-    margin: 5%;
-    border-radius: 10%;
-    display: flex;
-    align-items: center;
-    z-index: 10;
-    backdrop-filter: blur(40px);
-}
+
 
 .experiences-container img{
     width: 100%;
@@ -59,6 +50,25 @@
 .experiences_end::before {
     background: var(--dark-background);
 	transform: rotate(-4deg) scale(1.2, 1);
+
+}
+
+@media screen and (max-width: 780px)
+{
+    .position_background{
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        }
+    .experiences_content .box-text{
+
+        align-items: flex-start;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 60px 40px 60px 40px;
+		background-color: rgba(52, 52, 102, 0.75);
+		border-radius: 15px;
+    }
 
 }
 /*Experience*/
