@@ -59,10 +59,13 @@
         background-size: cover;
         background-position: center;
         border-radius: 15px;
+        padding: 5rem;
+        margin: 2%;
         }
     .experiences_content .box-text{
-
-        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 		margin-left: 0px;
 		margin-right: 0px;
 		padding: 60px 40px 60px 40px;
