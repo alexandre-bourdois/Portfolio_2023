@@ -28,6 +28,7 @@ header {
 }
 
 .logo {
+    font-weight: 700;
     font-size: 1.4rem;
     margin-left: 1%;
     text-decoration: none; 

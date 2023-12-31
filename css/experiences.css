@@ -37,11 +37,24 @@
     text-align: justify;
 }
 
+.position_background{
+    width: 27rem;
+    height: 30rem;
+    margin: 5%;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    backdrop-filter: blur(40px);
+}
+
 .experiences-container img{
     width: 100%;
     border-radius: 10%;
 
   }
+
+
 
 .experiences_end::before {
     background: var(--dark-background);
