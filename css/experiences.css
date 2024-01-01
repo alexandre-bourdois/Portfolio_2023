@@ -37,6 +37,10 @@
     text-align: justify;
 }
 
+.experiences h3{
+    font-size: 1.4rem;
+}
+
 .experiences-container img{
     width: 100%;
     border-radius: 10%;

@@ -6,8 +6,10 @@
     text-align: center;    
 }
 .projects h2{
+    position: relative;
     color: white;
     font-size: 2rem;
+    padding-bottom: 5rem;
 }
 .project-text{
     color:white;
@@ -24,8 +26,8 @@
     flex-direction: row;
     align-items: center;
     padding-bottom:10rem ;
-    position: relative;
     z-index: 2;
+    position: relative;
 }
 
 .projects_content .box-project-text{
@@ -43,7 +45,6 @@
 
 .project-text h3{
     font-size: 1.5rem;
-
 }
 
 .projects-container img{
