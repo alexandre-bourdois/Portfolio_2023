@@ -37,20 +37,14 @@
     text-align: justify;
 }
 
-
-
 .experiences-container img{
     width: 100%;
     border-radius: 10%;
-
   }
-
-
 
 .experiences_end::before {
     background: var(--dark-background);
 	transform: rotate(-4deg) scale(1.2, 1);
-
 }
 
 @media screen and (max-width: 780px)
@@ -60,16 +54,35 @@
         background-position: center;
         border-radius: 15px;
         padding: 5rem;
-        margin: 2%;
+        backdrop-filter: blur(0px);
+        margin: 2%; 
         }
+
+    .position_background::before{
+        content: '';
+        position: absolute;
+        border-radius: 15px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.1);
+        backdrop-filter: blur(10px);
+        }
+
+    .position-text {
+        position: relative;
+        justify-content: center;
+        color: var(--dark-background);
+        }
+
     .experiences_content .box-text{
         display: flex;
         justify-content: center;
         align-items: center;
 		margin-left: 0px;
 		margin-right: 0px;
-		padding: 60px 40px 60px 40px;
-		background-color: rgba(52, 52, 102, 0.75);
+		background-color: rgba(0, 0, 2, 0.1);
 		border-radius: 15px;
     }
 

@@ -58,7 +58,7 @@ function loadExperiences() {
               <h3>${experiencejson.position}</h3>
               <h4>${experiencejson.company} | ${experiencejson.location}</h4>
               <p>${experiencejson.date} </p>
-              <div class="box-text" style="margin-right: ${marginRightValue}; margin-left: ${marginLeftValue};">
+              <div class="box-text">
                 <p>${experiencejson.description}</p>
               </div>
             </div>
