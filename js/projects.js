@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function loadProject() {
     const projectContainer = document.getElementById("projects-container");
+    projectContainer.innerHTML = "";
 
     // Load JSON data
     load_json("../Ressources/jsons/projects.json")
@@ -16,6 +17,9 @@ function loadProject() {
           const alignment = index % 2 === 0 ? "left" : "right";
           const marginRightValue = alignment === "left" ? "-100px" : "0";
           const marginLeftValue = alignment === "right" ? "-100px" : "0";
+
+          if (window.innerWidth > 780)
+          {
           const projectTextHTML = `
             <div class="project-text">
               <h3>${project.project} (${project.date})</h3>
@@ -37,9 +41,29 @@ function loadProject() {
               ${alignment === "left" ? projectTextHTML + projectImageHTML : projectImageHTML + projectTextHTML}
             </div>
           `;
-  
           projectContainer.innerHTML += projectHTML;
+
+          }
+          else{
+            const projectCONTENT = `
+            <div class="project_background" style="background-image: url(${project.image});">
+              <div class="project-text">
+                <h3>${project.project} (${project.date})</h3>
+                <div class="box-project-text style="margin-right: ${marginRightValue}; margin-left: ${marginLeftValue};">
+                  <p>${project.description}</p>
+                </div>
+                <a href="${project.link}" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          `;
+          projectContainer.innerHTML += projectCONTENT;
+
+          }
         });
       })
       .catch(error => console.error("Error loading data:", error));
+      projectCONTENT= "";
+      projectTextHTML= "";
+      projectImageHTML= "";
+      projectHTML= "";
   };

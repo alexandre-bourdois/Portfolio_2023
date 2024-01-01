@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function loadExperiences() {
   const experienceContainer = document.getElementById("experiences-container");
-  // Effacez le contenu existant
   experienceContainer.innerHTML = "";
 
   // Load JSON data
@@ -49,10 +48,11 @@ function loadExperiences() {
         `;
 
         experienceContainer.innerHTML += experienceHTML;
+
         }
         else
         {
-          const positionTextHTML = `
+          const positionContent = `
           <div class="position_background" style="background-image: url(${experiencejson.image});">
             <div class="position-text" >
               <h3>${experiencejson.position}</h3>
@@ -64,23 +64,31 @@ function loadExperiences() {
             </div>
           </div>
         `;
-        experienceContainer.innerHTML += positionTextHTML;
+        experienceContainer.innerHTML += positionContent;
+
         }
       });
     })
     .catch(error => console.error("Error loading data:", error));
+    positionTextHTML= "";
+    positionImageHTML= "";
+    experienceHTML= "";
+    positionContent= "";
 };
 
 let prev_width = window.innerWidth;
 window.addEventListener('resize', function () {
-  // Rafraîchissez les données si la taille de l'écran est réduite
   if ((prev_width >= 780 && window.innerWidth <= 780) || (prev_width <= 780 && window.innerWidth >= 780)){
     loadExperiences();
+    loadProject();
+
   }})
+
   document.addEventListener('fullscreenchange', function () {
-  // Rafraîchissez les données si la taille de l'écran est réduite
   if ((prev_width >= 780 && window.innerWidth <= 780) || (prev_width <= 780 && window.innerWidth >= 780)){
     loadExperiences();
+    loadProject();
+
   }})
 
   
