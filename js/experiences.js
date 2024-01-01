@@ -77,6 +77,11 @@ window.addEventListener('resize', function () {
   if ((prev_width >= 780 && window.innerWidth <= 780) || (prev_width <= 780 && window.innerWidth >= 780)){
     loadExperiences();
   }})
+  document.addEventListener('fullscreenchange', function () {
+  // Rafraîchissez les données si la taille de l'écran est réduite
+  if ((prev_width >= 780 && window.innerWidth <= 780) || (prev_width <= 780 && window.innerWidth >= 780)){
+    loadExperiences();
+  }})
 
   
   
