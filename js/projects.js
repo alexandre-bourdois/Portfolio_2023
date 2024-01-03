@@ -15,15 +15,15 @@ function loadProject() {
   
           
           const alignment = index % 2 === 0 ? "left" : "right";
-          const marginRightValue = alignment === "left" ? "-100px" : "0";
-          const marginLeftValue = alignment === "right" ? "-100px" : "0";
+          const marginRightValue = alignment === "left" ? "-50px" : "0";
+          const marginLeftValue = alignment === "right" ? "-50px" : "0";
 
           if (window.innerWidth > 780)
           {
           const projectTextHTML = `
             <div class="project-text">
               <h3>${project.project} (${project.date})</h3>
-              <div class="box-project-text style="margin-right: ${marginRightValue}; margin-left: ${marginLeftValue};">
+              <div class="box-project-text" style="margin-right: ${marginRightValue}; margin-left: ${marginLeftValue};">
                 <p>${project.description}</p>
               </div>
               <a href="${project.link}" target="_blank">View on GitHub</a>

@@ -19,8 +19,8 @@ function loadExperiences() {
 
         // Determine alignment based on index
         const alignment = index % 2 === 0 ? "left" : "right";
-        const marginRightValue = alignment === "left" ? "-100px" : "0";
-        const marginLeftValue = alignment === "right" ? "-100px" : "0";
+        const marginRightValue_exp = alignment === "left" ? "-100px" : "0";
+        const marginLeftValue_exp = alignment === "right" ? "-100px" : "0";
         
         if (window.innerWidth > 780)
         {
@@ -29,7 +29,7 @@ function loadExperiences() {
             <h3>${experiencejson.position}</h3>
             <h4>${experiencejson.company} | ${experiencejson.location}</h4>
             <p>${experiencejson.date} </p>
-            <div class="box-text" style="margin-right: ${marginRightValue}; margin-left: ${marginLeftValue};">
+            <div class="box-text" style="margin-right: ${marginRightValue_exp}; margin-left: ${marginLeftValue_exp};">
               <p>${experiencejson.description}</p>
             </div>
           </div>
