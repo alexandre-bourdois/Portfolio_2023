@@ -27,7 +27,7 @@ function loadExperiences() {
         const positionTextHTML = `
           <div class="position-text">
             <h3>${experiencejson.position}</h3>
-            <h4>${experiencejson.company} | ${experiencejson.location}</h4>
+            <h4 class="company_name"><a href="${experiencejson.link}" target="_blank">${experiencejson.company}</a> | ${experiencejson.location}</h4>
             <p>${experiencejson.date} </p>
             <div class="box-text" style="margin-right: ${marginRightValue_exp}; margin-left: ${marginLeftValue_exp};">
               <p>${experiencejson.description}</p>
@@ -56,7 +56,7 @@ function loadExperiences() {
           <div class="position_background" style="background-image: url(${experiencejson.image});">
             <div class="position-text" >
               <h3>${experiencejson.position}</h3>
-              <h4>${experiencejson.company} | ${experiencejson.location}</h4>
+              <h4 class="company_name"><a href="${experiencejson.link}" target="_blank">${experiencejson.company}</a> | ${experiencejson.location}</h4>
               <p>${experiencejson.date} </p>
               <div class="box-text">
                 <p>${experiencejson.description}</p>

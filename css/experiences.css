@@ -10,7 +10,7 @@
     position: relative;
     color: white;
     font-size: 2rem;
-    padding-bottom: 5rem;
+project-text    padding-bottom: 5rem;
 }
 
 .experiences_content {
@@ -50,7 +50,13 @@
     background: var(--dark-background);
 	transform: rotate(-4deg) scale(1.2, 1);
 }
-
+.company_name a {
+    text-decoration: none;
+    color: inherit;
+}
+.company_name a:hover {
+    text-shadow: 0 0 10px white; /* Lueur blanche (ajustez les valeurs selon vos préférences) */
+    transition: text-shadow 0.3s ease-in-out;}
 @media screen and (max-width: 780px)
 {
     .experiences{
