@@ -76,7 +76,9 @@
     .projects{
         padding-bottom: 5rem;
     }
-
+    .project-text h3{
+        color: var(--light-greenish-gray);
+    }
     .project_background{
         background-size: cover;
         background-position: center;

@@ -55,7 +55,7 @@ project-text    padding-bottom: 5rem;
     color: inherit;
 }
 .company_name a:hover {
-    text-shadow: 0 0 10px white; /* Lueur blanche (ajustez les valeurs selon vos préférences) */
+    text-shadow: 0 0 8px white;
     transition: text-shadow 0.3s ease-in-out;}
 @media screen and (max-width: 780px)
 {
@@ -88,11 +88,14 @@ project-text    padding-bottom: 5rem;
     .position-text {
         position: relative;
         justify-content: center;
-        color: var(--dark-background);
-        color: var(--greenish-gray);
         align-items: center;
         }
-
+    .position-text p, h4{
+        color: var(--greenish-gray);
+    }
+    .position-text h3{
+        color: var(--light-greenish-gray);
+    }   
     .experiences_content .box-text{
         display: flex;
         justify-content: center;

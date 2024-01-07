@@ -6,7 +6,6 @@ function loadProject() {
     const projectContainer = document.getElementById("projects-container");
     projectContainer.innerHTML = "";
 
-    // Load JSON data
     load_json("../Ressources/jsons/projects.json")
       .then(data => {
         data.forEach((project, index) => {
