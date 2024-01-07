@@ -62,7 +62,7 @@
 
 .github_logo svg:hover
 {
-	opacity:  0.5;
+	opacity:  0.75;
 	stroke: var(--light-background);
 }
 
