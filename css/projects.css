@@ -13,6 +13,9 @@
 }
 .project-text{
     color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .project-text a{
     text-decoration: none;
@@ -23,8 +26,8 @@
     color: white;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
     padding-bottom:10rem ;
     z-index: 2;
     position: relative;
@@ -51,6 +54,17 @@
     width: 100%;
     border-radius: 10%;
   }
+
+.github_logo
+{
+	stroke: var(--greenish-gray);
+}
+
+.github_logo svg:hover
+{
+	opacity:  0.5;
+	stroke: var(--light-background);
+}
 
 .projects_end::before {
     background: var(--dark-background);
