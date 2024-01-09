@@ -60,12 +60,11 @@
 .skill img{
     width: 100%;
     transform: scale(0.95);
-
   }
   
 .skill:hover img{
 	transform: scale(1);
-    width: 100%;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
   }
 .skills_end::before {
     background: var(--light-background);
