@@ -9,4 +9,7 @@ footer{
     text-decoration: none;
     color: white;
 }
+
+.footer-license:hover{
+    opacity: 0.5;}
 /*Footer*/

@@ -59,9 +59,14 @@
 
 .skill img{
     width: 100%;
+    transform: scale(0.95);
+
   }
   
-
+.skill:hover img{
+	transform: scale(1);
+    width: 100%;
+  }
 .skills_end::before {
     background: var(--light-background);
 	transform: rotate(4deg) scale(1.2, 1);
