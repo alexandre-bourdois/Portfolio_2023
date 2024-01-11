@@ -9,6 +9,8 @@ header {
     z-index: 100;
     top: 0;
     left: 0;
+    transition: height 5s ease-in-out, box-shadow 0.4s ease-in-out, top 5s ease-in-out;
+
 }
 
 #check{
@@ -45,6 +47,8 @@ header {
     font-size: 1rem;
     margin-left: 2rem;
     font-weight: 500;
+	transform: translateY(-20px);
+
 }
 .navbar a:hover{
     color: var(--dark-blue)
