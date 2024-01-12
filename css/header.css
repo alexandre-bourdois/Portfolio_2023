@@ -47,9 +47,15 @@ header {
     font-size: 1rem;
     margin-left: 2rem;
     font-weight: 500;
+	opacity: 0;
 	transform: translateY(-20px);
-
+	transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
+.navbar.animate a{
+    opacity: 1;
+    transform: translateY(-20);
+}
+
 .navbar a:hover{
     color: var(--dark-blue)
 }
