@@ -21,7 +21,7 @@ span{
 
 .home h1{
     color: var(--greenish-gray);
-    font-size:  clamp(27px, 3vw, 31px);;
+    font-size:  clamp(27px, 3vw, 35px);;
     padding-bottom: 1.5rem;
 }
 
@@ -51,6 +51,19 @@ span{
     opacity: 1;
     transform: translateY(0);
 }
+
+.company {
+    color:var(--greenish-gray); /* Couleur du texte du lien */
+    text-decoration: none; 
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.company:hover {
+    text-decoration: underline;
+}
+
 .home_photo {
     padding: 2rem;
 }
