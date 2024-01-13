@@ -3,5 +3,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setTimeout(function() {
         myImage.classList.add('animate');
-    }, 500);
+    }, 100);
 });

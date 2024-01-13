@@ -42,8 +42,15 @@ span{
     padding-left: 4rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
+.animate.home_content {
+    opacity: 1;
+    transform: translateY(0);
+}
 .home_photo {
     padding: 2rem;
 }
