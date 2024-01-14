@@ -19,6 +19,16 @@
     z-index: 2;
 }
 
+.school{
+    color:var(--light-greenish-gray);
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.school:hover {
+    text-decoration: underline;
+}
+
 .about_content{
     flex:1;
     display: flex;
