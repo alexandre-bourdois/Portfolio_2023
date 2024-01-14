@@ -20,7 +20,7 @@
 }
 
 .school{
-    color:var(--light-greenish-gray);
+    color:var(--greenish-gray);
     text-decoration: none; 
     cursor: pointer;
 }

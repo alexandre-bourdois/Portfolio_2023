@@ -7,7 +7,7 @@
       "description": "Embedded software development on STM87M01 module (NBIOT + GNSS). My role is to create Customer APplications to demonstrate the module's potential.",
       "link":"https://www.st.com/content/st_com/en/about/st_company_information/who-we-are.html",
       "video": "none",
-      "image": "../Ressources/images/experiences/ST_LOGO.jpg"
+      "image": "../Ressources/images/experiences/ST_logo.jpg"
     },
     {
       "position": "Hardware Engineer Intern",
@@ -17,7 +17,7 @@
       "description": "Digital probe design from CAD to assembly. Reverse Engeneering of a Power Inverter. Multi-cultural experience in Malaysia",
       "link":"https://www.utm.my/",
       "video": "none",
-      "image": "../Ressources/images/experiences/UTM_LOGO.jpg"
+      "image": "../Ressources/images/experiences/UTM_logo.jpg"
     },
     {
       "position": "IoT Cybersecurity Consultant",
@@ -27,6 +27,6 @@
       "description": "Development of a bootloader on STM32 for an IoT security ecosystem. Reverse engineering of optical systems.",
       "link":"https://www.lootus.net/",
       "video": "none",
-      "image": "../Ressources/images/experiences/LOOTUS_LOGO.jpg"
+      "image": "../Ressources/images/experiences/LOOTUS_logo.jpg"
     }
   ]
