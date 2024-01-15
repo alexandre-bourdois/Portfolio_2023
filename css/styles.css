@@ -24,7 +24,7 @@ html
     content: '';
     position: absolute;
 	height: 7vw;
-    width: 100%;
+    width: 98%;
     margin: -3.5vw 0px 0vw 0px;
     z-index: 1;
 }
