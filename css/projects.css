@@ -80,6 +80,7 @@
         color: var(--light-greenish-gray);
     }
     .project_background{
+        position: relative;
         background-size: cover;
         background-position: center;
         border-radius: 15px;
