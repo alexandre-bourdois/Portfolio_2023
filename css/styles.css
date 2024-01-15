@@ -23,8 +23,8 @@ html
 .section_end::before{
     content: '';
     position: absolute;
-	height: 7vw;
-    width: 98%;
+	height: 0vw;
+    width: 100%;
     margin: -3.5vw 0px 0vw 0px;
     z-index: 1;
 }
