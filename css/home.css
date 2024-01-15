@@ -39,7 +39,7 @@ span{
     text-align: left;
     min-width: 250px;
     max-width: 700px;
-    padding-left: 4rem;
+    padding-left: 2rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     opacity: 0;
@@ -70,8 +70,8 @@ span{
 
 .rounded-image {
     border-radius: 50%;
-    width: clamp(250px, 40vw, 480px);
-	height: clamp(250px, 40vw, 480px);
+    width: clamp(300px, 40vw, 480px);
+	height: clamp(300px, 40vw, 480px);
 	-webkit-clip-path: circle(0%);
 	clip-path: circle( 0%);
 	transform: translateY(0px);
