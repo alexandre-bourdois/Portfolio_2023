@@ -10,7 +10,7 @@
     position: relative;
     color: white;
     font-size: 2rem;
-project-text    padding-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 
 .experiences_content {
@@ -20,12 +20,12 @@ project-text    padding-bottom: 5rem;
     flex-direction: row;
     align-items: center;
     padding-bottom:10rem ;
-    z-index: 2;
+    z-index: 1;
 	position: relative;
 }
 
 .experiences_content .box-text{
-    z-index: 10;
+    z-index: 2;
 	position: relative;
 	display: flex;
 	flex-direction: column;
