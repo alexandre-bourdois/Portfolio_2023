@@ -20,11 +20,11 @@ html
 	overflow-x: hidden;
 }
 
-.section_end::before{
+/* .section_end::before{
     content: '';
     position: absolute;
 	height: 0vw;
     width: 100%;
-    margin: -3.5vw 0px 0vw 0px;
+    margin: 0vw 0px 0vw 0px;
     z-index: 1;
-}
+} */
