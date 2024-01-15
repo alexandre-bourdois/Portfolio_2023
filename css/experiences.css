@@ -57,6 +57,7 @@ project-text    padding-bottom: 5rem;
 .company_name a:hover {
     text-shadow: 0 0 8px white;
     transition: text-shadow 0.3s ease-in-out;}
+    
 @media screen and (max-width: 780px)
 {
     .experiences{

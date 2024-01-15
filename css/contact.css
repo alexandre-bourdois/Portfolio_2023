@@ -13,9 +13,11 @@
 
 .contact_social{
     display: flex;
-	flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    gap:60px;
+    flex-direction: row;
+    gap:100px;
+	grid-gap: 50px;
 }
 
 .contact_social a{
