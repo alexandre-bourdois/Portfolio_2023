@@ -29,7 +29,7 @@ span{
     color: var(--light-gray);
     padding-top: 2rem;
     padding-right: 5%;
-
+    font-size:  clamp(12px, 1vw, 20px);;
 }
 
 
@@ -37,7 +37,7 @@ span{
     flex: 1; 
     flex-direction: column;
     text-align: left;
-    min-width: 400px;
+    min-width: 250px;
     max-width: 700px;
     padding-left: 4rem;
     padding-top: 4rem;
