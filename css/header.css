@@ -74,6 +74,8 @@ header {
 @media (max-width: 830px){
     .icons{
         display: inline-flex;
+        z-index: 10;
+
     }
 
     #check:checked~.icons #menu-icon{
@@ -99,6 +101,7 @@ header {
         -webkit-backdrop-filter: blur(40px);
         overflow: hidden;
         transition: .3s ease;
+        z-index: 1;
     }
     header::before {
         content: '';
@@ -110,6 +113,7 @@ header {
         background: rgba(0,0,0,.1);
         backdrop-filter: blur(40px);
         -webkit-backdrop-filter: blur(40px);
+        z-index: 1;
 
     }
     #check:checked~.navbar{
@@ -122,6 +126,8 @@ header {
         text-align: center;
         transform: translate(-50px);
         transition: .3s ease;
+        z-index: 10;
+
     }
 
     #check:checked~.icons .navbar a{
