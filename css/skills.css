@@ -14,10 +14,10 @@
 }
 
 .category_title{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     background-color: var(--dark-background);
     padding: 2rem;
-    width: 350px;
+    width: 320px;
     color: var(--light-background);
     border-radius: 20%;
     text-align: center;
@@ -39,7 +39,6 @@
     padding: 0.3rem;
     text-align: center;
     color: black;
-
 }
 .category_content{
     background-color: rgb(230, 227, 237);
