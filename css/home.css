@@ -53,7 +53,7 @@ span{
 }
 
 .company {
-    color:var(--greenish-gray); /* Couleur du texte du lien */
+    color:var(--greenish-gray); 
     text-decoration: none; 
     cursor: pointer;
     font-weight: bold;
@@ -80,6 +80,6 @@ span{
 .rounded-image.animate {
     -webkit-clip-path: circle(100%);
     clip-path: circle(100%);
-    transform: translateY(-5px); /* Réglez la valeur selon vos préférences */
+    transform: translateY(-5px);
 }
 /*Home*/
