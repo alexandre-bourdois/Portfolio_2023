@@ -1,19 +1,17 @@
 /*Header*/
 header {
     position: relative;
-    background-size: cover;
-    background-position: center;
     max-width: 1300px;
+    max-height: 17.7rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;    
     padding: 1rem 5%;
-    z-index: 100;
+    z-index: 1;
     top: 0;
     left: 0;
     transition: height 5s ease-in-out, box-shadow 0.4s ease-in-out, top 5s ease-in-out;
-
 }
 
 #check{
