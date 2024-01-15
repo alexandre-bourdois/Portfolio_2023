@@ -85,6 +85,7 @@
         border-radius: 15px;
         padding: 5rem;
         backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
         margin: 2%; 
         margin-bottom: 5rem;
     }
@@ -99,6 +100,7 @@
         height: 100%;
         background: rgba(0,0,0,.1);
         backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         }
 
     .project-text {
