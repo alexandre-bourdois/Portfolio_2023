@@ -65,8 +65,8 @@
 	transform: scale(1);
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
   }
-/* .skills_end::before {
+.skills_end::before {
     background: var(--light-background);
 	transform: rotate(4deg) scale(1.2, 1);
-} */
+}
 /*Skills*/
