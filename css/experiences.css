@@ -46,10 +46,10 @@
     border-radius: 10%;
   }
 
-/* .experiences_end::before {
+ .experiences_end::before {
     background: var(--dark-background);
-	/* transform: rotate(-4deg) scale(1.2, 1); 
-} */
+	transform: rotate(-4deg) scale(1.2, 1); 
+}
 .company_name a {
     text-decoration: none;
     color: inherit;
