@@ -23,12 +23,3 @@ html
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 }
-
-.section_end::before{
-    content: '';
-    position: absolute;
-	height: 8vw;
-    width: 100%;
-    margin: -4vw 0px 0vw 0px;
-    z-index: 1;
-}

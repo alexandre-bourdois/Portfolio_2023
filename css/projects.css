@@ -1,6 +1,6 @@
 /*Projects*/
 .projects{
-    padding-top: max(10rem, calc(5px + 5vw));
+    padding-top: max(2rem, calc(5px + 5vw));
     transition: padding-top 0.2s ease; 
 	background-color: var(--dark-background);
     text-align: center;    
@@ -64,11 +64,6 @@
 {
 	opacity:  0.75;
 	stroke: var(--light-background);
-}
-
-.projects_end::before {
-    background: var(--dark-background);
-	transform: rotate(-4deg) scale(1.2, 1);
 }
 
 @media screen and (max-width: 780px)

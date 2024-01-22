@@ -1,6 +1,6 @@
 /*Experience*/
 .experiences{
-    padding-top: max(10rem, calc(5px + 5vw));
+    padding-top: max(2rem, calc(5px + 5vw));
     transition: padding-top 0.3s ease; 
 	background-color: var(--dark-background);
     text-align: center;   
@@ -46,10 +46,6 @@
     border-radius: 10%;
   }
 
- .experiences_end::before {
-    background: var(--dark-background);
-	transform: rotate(-4deg) scale(1.2, 1); 
-}
 .company_name a {
     text-decoration: none;
     color: inherit;

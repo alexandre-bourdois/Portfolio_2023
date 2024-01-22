@@ -1,6 +1,7 @@
 /*About*/
 .about{
 	background-color: var(--light-background);
+    padding-bottom: 4rem;
 }
 
 .about h2{
@@ -35,10 +36,6 @@
     flex-direction: column;
 }
 
-.about_end::before {
-    background: var(--light-background);
-	transform: rotate(4deg) scale(1.2, 1);
-}
 /*About*/
 
 @media screen and (max-width: 1300px)
