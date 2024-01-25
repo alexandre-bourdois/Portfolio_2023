@@ -25,3 +25,16 @@ VANTA.NET({
   maxDistance: 19.00
 })
 
+
+let lastScrollTop = 0; 
+window.addEventListener('scroll', () => {
+  let newScrollTop = document.documentElement.scrollTop;
+
+  if (newScrollTop > lastScrollTop) {
+    document.querySelector('#header').style.top = '-100px'; 
+  } else {
+    document.querySelector('#header').style.top = '0';
+  }
+
+  lastScrollTop = newScrollTop <= 0 ? 0 : newScrollTop;
+});

@@ -1,5 +1,6 @@
 /*Home*/
 .home {
+    padding-top: 4rem;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 1rem;
