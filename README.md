@@ -9,7 +9,7 @@ Here is the link to the website:  https://alexandrebourdois.com/
 - HTML
 -   CSS 
 -  JavaScript (Vanilla)
-<br/>
+
 # Credits
 
 - [**Alexandre BOURDOIS**](https://github.com/alexandre-bourdois) : Creator of the project.
