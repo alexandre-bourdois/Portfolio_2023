@@ -36,7 +36,7 @@ function loadProject() {
           `;
           const projectImageHTML = `
             <div class="project-image">
-              ${hasImage ? `<img src="${project.image}" alt="Project Image" width="500px" height="400px">` : ""}
+              ${hasImage ? `<img src="${project.image}" alt="Project Image" width="500px" height="300px">` : ""}
               ${hasVideo ? `<video src="${project.video}" controls></video>` : ""}
             </div>
           `;

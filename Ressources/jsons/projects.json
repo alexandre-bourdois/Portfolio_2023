@@ -1,10 +1,18 @@
 [
-    {
-      "project": "Web Portfolio",
-      "date": "2023",
-      "description": "It's a website portfolio showing my professional profile developed in HTML/CSS and JavaScript.",
-      "link":"https://github.com/alexandre-bourdois/Portfolio",
-      "video": "none",
-      "image": "../Ressources/images/portfolio.jpg"
-    }
+  {
+    "project": "HSK_AI",
+    "date": "2024",
+    "description": "It's a machine learning project for accurate identification of basic Chinese characters.",
+    "link":"https://github.com/alexandre-bourdois/HSK_AI",
+    "video": "none",
+    "image": "../Ressources/images/projects/HSK_AI.png"
+  },
+  {
+    "project": "Web Portfolio",
+    "date": "2023",
+    "description": "It's a website portfolio showing my professional profile developed in HTML/CSS and JavaScript.",
+    "link":"https://github.com/alexandre-bourdois/Portfolio",
+    "video": "none",
+    "image": "../Ressources/images/projects/portfolio.jpg"
+  }
   ]
