@@ -1,5 +1,13 @@
 [
   {
+    "project": "To Do Chain",
+    "date": "2024",
+    "description": "ToDoChain: Decentralized task management on Ethereum with MetaMask integration.",
+    "link":"https://github.com/alexandre-bourdois/ToDoChain",
+    "video": "none",
+    "image": "../Ressources/images/projects/ToDoChain.png"
+  },
+  {
     "project": "HSK_AI",
     "date": "2024",
     "description": "It's a machine learning project for accurate identification of basic Chinese characters.",
